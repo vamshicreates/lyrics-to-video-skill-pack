@@ -1,0 +1,21 @@
+# Secrets & Environment
+.env
+*.env
+
+# Python virtual environments & cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS & OS artifacts
+.DS_Store
+
+# Generated media / test outputs
+*.mp4
+*.mov
+*.wav
+*.mp3
+edit/
+projects/

@@ -1,0 +1,63 @@
+{
+  "title": "Midnight Neon Rain",
+  "song_slug": "midnight_neon_rain",
+  "aspect_ratio": "16:9",
+  "resolution": [1920, 1080],
+  "fps": 30,
+  "grade": "warm_cinematic",
+  "audio_path": "auto",
+  "style_anchor": "Cinematic 35mm film still, Kodak Vision3 500T, anamorphic lens bokeh, deep midnight blue and warm amber neon reflections on wet pavement, atmospheric mist, fine film grain, hyper-detailed.",
+  "subtitle_style": {
+    "mode": "cinematic_lyric",
+    "font_name": "Kohinoor Telugu Bold",
+    "font_size": 50,
+    "margin_v": 110,
+    "uppercase": false,
+    "pill_bg": true
+  },
+  "slides": [
+    {
+      "id": "slide_01_music_intro",
+      "section": "MUSIC_INTRO",
+      "lyric": "",
+      "meaning": "Instrumental intro — changes across 3 atmospheric images before vocals enter",
+      "start": 0.0,
+      "end": 9.0,
+      "music_images": [
+        "images/intro_01.png",
+        "images/intro_02.png",
+        "images/intro_03.png"
+      ]
+    },
+    {
+      "id": "slide_02_verse_1",
+      "section": "VERSE_1",
+      "lyric": "City lights are bleeding through the rain-streaked glass",
+      "lyric_start": 9.0,
+      "lyric_end": 13.5,
+      "meaning": "Introspective vocal entry — looking out at the blurred city at night",
+      "start": 9.0,
+      "end": 13.5,
+      "motion": "zoom_in",
+      "prompt": "Cinematic 35mm film still, Kodak Vision3 500T, anamorphic lens bokeh, deep midnight blue and warm amber neon reflections on wet pavement, atmospheric mist, fine film grain, hyper-detailed. Extreme close-up looking through a raindrop-covered apartment window at glowing blurred city traffic lights below. No text, no watermarks.",
+      "image_path": "images/slide_01.png"
+    },
+    {
+      "id": "slide_03_verse_2_with_interlude",
+      "section": "VERSE_1",
+      "lyric": "Footsteps echo softly where the shadows pass",
+      "lyric_start": 13.5,
+      "lyric_end": 18.0,
+      "meaning": "Solitary walk down a quiet rain-slicked alley, followed by 2-cut instrumental interlude",
+      "start": 13.5,
+      "end": 25.0,
+      "motion": "pan_right",
+      "prompt": "Cinematic 35mm film still, Kodak Vision3 500T, anamorphic lens bokeh, deep midnight blue and warm amber neon reflections on wet pavement, atmospheric mist, fine film grain, hyper-detailed. Wide shot of a lone figure in a dark trench coat walking away down a misty cobblestone street at night, puddles reflecting warm streetlights. No text, no watermarks.",
+      "image_path": "images/slide_02.png",
+      "music_images": [
+        "images/interlude_01.png",
+        "images/interlude_02.png"
+      ]
+    }
+  ]
+}
