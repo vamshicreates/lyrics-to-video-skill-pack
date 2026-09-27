@@ -15,8 +15,10 @@ echo "==> Installing Lyrics-to-Video Skill Pack into: $SKILLS_DEST"
 mkdir -p "$SKILLS_DEST"
 
 cp -R "$PACK_DIR/skills/lyrics-to-video" "$SKILLS_DEST/"
+cp -R "$PACK_DIR/skills/lyrics-flow-producer" "$SKILLS_DEST/"
 cp -R "$PACK_DIR/skills/video-use" "$SKILLS_DEST/"
 chmod +x "$SKILLS_DEST/lyrics-to-video/scripts/"*.py
+chmod +x "$SKILLS_DEST/lyrics-flow-producer/scripts/"*.py
 
 # 1. Check / install ffmpeg
 if ! command -v ffmpeg >/dev/null 2>&1; then

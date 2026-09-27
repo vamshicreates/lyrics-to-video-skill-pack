@@ -13,7 +13,9 @@ This folder bundles all required skills so you can copy it to any machine or pus
    - Displays lyrics on screen **strictly when they are sung** (`[lyric_start, lyric_end]`).
    - Automatically cuts across **2–3 different images during every instrumental/music-only interlude** with no text on screen so the video moves dynamically with the music.
    - Renders native Indic/Telugu/Hindi/Tamil/Unicode typography via macOS CoreText + Pillow and exports the final MP4 locally (`scripts/build_slideshow.py`).
-2. **[`skills/video-use`](./skills/video-use/SKILL.md)** — Companion video editing, color grading (`grade.py`), ElevenLabs Scribe ASR (`transcribe.py`, `pack_transcripts.py`), EDL rendering (`render.py`), and timeline QC (`timeline_view.py`) skill.
+2. **[`skills/lyrics-flow-producer`](./skills/lyrics-flow-producer/SKILL.md)** — Token-minimal AI Lyric Video Producer built on top of `zysilm/video-producer-skill`:
+   - Analyzes pasted song lyrics, calculates the exact number of relevant keyframe images and 8-second Flow video segments needed (`scripts/plan_lyrics_pipeline.py`), generates style-locked **Gemini Nano Banana** keyframes, chains 8-second **Google Flow (`Veo 3.1`)** video segments via isolated browser subagents, and concatenates the final master MP4 (`scripts/flow_video_engine.py`).
+3. **[`skills/video-use`](./skills/video-use/SKILL.md)** — Companion video editing, color grading (`grade.py`), ElevenLabs Scribe ASR (`transcribe.py`, `pack_transcripts.py`), EDL rendering (`render.py`), and timeline QC (`timeline_view.py`) skill.
 
 ---
 
